@@ -1062,10 +1062,13 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 .slide {
-  height: 100vh;
-  min-height: 900px;
+  height: 50%:
   background-size: cover; }
 
+.slide p{
+  padding-left: 20%;
+  padding-right: 20% ;
+}
 .btn-md {
   padding: 8px 20px; }
 
