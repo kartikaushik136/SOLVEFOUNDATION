@@ -510,9 +510,36 @@
         </div>
       </div>
       </div>
-      <div class="container" style="text-align: center;">
-        
-      </div>
+      <style>
+#panel, .flip {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  margin: auto;
+}
+
+#panel {
+  display: none;
+}
+</style>  
+<div class="container p-5" style="text-align: center;">
+
+              <button type="button" class="btn btn-info flip" onclick="myFunction()" id="registerbtn" style="width: 50%; border-radius: 20px; background: #e3f1ff; color: black; font-size: 25px;align-self: center;">Register</button>
+              <div id="panel">
+
+              <a href="https://forms.gle/HSJtE1ybpUybhfvCA" class="btn btn-info" target="_blank"  style="width: 50%; border-radius: 20px; background: #e3fiff; color: black;">Register For Conference</a><br><br>
+              <a class="btn btn-info disabled" style="width: 50%; border-radius: 20px; background: #e3fiff; color: black;">Register For Competition</a></div>
+
+            </div>
+  
+<script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+  document.getElementById("registerbtn").style.display = "none";
+}
+</script>
 
       <!--<div class="site-section bg-light" id="about-section">
         <div class="container">
